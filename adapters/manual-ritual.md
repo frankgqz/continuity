@@ -20,6 +20,12 @@ auto-reads):
 
 Tools with `@file` mentions (cursor-class) can instead just `@memory/MEMORY.md`
 in the first message of each session.
+Use the HARDEST hook your host offers: `@memory/MEMORY.md` imports (claude-code
+CLAUDE.md, cursor rules) force the content in; the "read at session start"
+instruction merely asks. And mind the re-injection difference: a load-once
+file rides the conversation and can be compacted out of very long sessions —
+hosts like hermes re-inject every message (memory survives compression); on
+load-once hosts, keep sessions bounded or re-load mid-session.
 
 ## 3. Conversation access (the host-variable step)
 The dream mines "the day's conversations" — where those live differs by host:
