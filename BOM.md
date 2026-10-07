@@ -1,6 +1,6 @@
-# Memory kit — Bill of Materials (kickoff 2026-10-07)
+# continuity — Bill of Materials (kickoff 2026-10-07)
 
-Working name `memory-kit`. The AI-led project, seed #1 (confirmed by Frank
+Named `continuity` 2026-10-07 (was working name `memory-kit`). The AI-led project, seed #1 (confirmed by Frank
 2026-10-03; kickoff by "we can do some today", 2026-10-07).
 
 ## The product (one line)
