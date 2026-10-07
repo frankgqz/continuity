@@ -1,8 +1,8 @@
-# memory-kit
+# continuity
 
-Give your agent tiers, dreams, and a map — memory architecture for AI tools
-that forget. Files + two procedures + one small language; works on any host
-that can read and write a folder.
+Memory architecture for AI agents that forget — tiers, dreams, and a map:
+files + two procedures + one small language; works on any host that can read
+and write a folder.
 
 **Start here:** [essay.md](essay.md) — the argument and the install.
 
