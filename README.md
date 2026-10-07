@@ -4,6 +4,11 @@ Memory architecture for AI agents that forget — tiers, dreams, and a map:
 files + two procedures + one small language; works on any host that can read
 and write a folder.
 
+Your AI coding assistant forgets everything between sessions — every Monday
+is a stranger. This is the fix: **persistent memory** that lives in your repo,
+versions with your code, and runs on Claude Code, Codex, Cursor, Hermes, or
+any agent with one writable folder. No plugin, no service, no account.
+
 **Start here:** [essay.md](essay.md) — the argument and the install.
 
 ```
@@ -20,3 +25,4 @@ Full walkthrough: [adapters/manual-ritual.md](adapters/manual-ritual.md).
 
 Memory lives in YOUR repo and versions with your code. The kit holds no user
 data.
+
