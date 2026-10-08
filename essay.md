@@ -47,29 +47,28 @@ people underestimate:
   resolve. Scales with content — a short chat earns a line or two. This is
   the five-second read; the entries below are the full one.
 - **Dated entries as `##` headings.** Headings are structure and never marked.
-- **Marks on the sub-points.** Five glyphs and a default:
+- **Marks on the sub-points.** Four glyphs and a default:
 
   | mark | means |
   |------|-------|
   | `!`  | must-not-lose: if this line vanished, future work would collapse |
-  | `?`  | unknown — a missing input |
+  | `?`  | unknown / unsettled / contested — anything not yet resolved |
   | `->` | next action |
   | `✓`  | done, with its one-line resolution |
-  | `~`  | contested / unsettled — settles only when a *decision* lands |
   | none | neutral note (the default — plain life needs no marking) |
 
-  The arc between them is the whole lifecycle: `?` (unknown) → `~` (known but
-  unsettled) → `✓` (settled). A question whose answer turns out contested
-  becomes `~`; a decision resolves it. The maintenance job may correct marks
-  that evidence has obviously resolved — but never `~`: settling a contest
-  takes a decision, not evidence.
+  The arc is the whole lifecycle: `?` (not yet known) → `✓` (settled). Friction
+  and contest live inside `?` — a `contested:` word-tag makes them greppable. The
+  maintenance job corrects marks that evidence has obviously resolved — but a
+  `?` flips only when a resolution is visible: a decision or a completion,
+  never silence.
 
 The small rules matter more than they look, because markdown will betray you
 politely: a mark at line start works, a `>` becomes a blockquote, a `*` becomes
 a bullet, a `1.` mid-line becomes a list and steals your syntax highlighting,
 and a four-space indent becomes a code block. Marks live at the start of
 sub-points (after indentation), rank numbers use `1:`, indents stay at three
-spaces. A mark that needs a legend is too clever — these five can't be
+spaces. A mark that needs a legend is too clever — these four can't be
 confused for anything else.
 
 And one division of labor that keeps everything from bloating: **project

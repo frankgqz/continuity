@@ -21,13 +21,15 @@
   content); dated entries below as `##` headings — structure, never marked;
   their sub-points carry the marks (3-space indent; mark field 3-wide).
   Durable project detail -> the project's AGENTS.md.
-- **Marks:** `!` must-not-lose · `?` unknown · `->` next action · `✓` done
-  (one-line resolution) · `~` contested/unsettled — settles only when a
-  DECISION lands (resolved `~` -> `✓`, then prunable). No mark = neutral,
-  the default. Shape rules: `->` not `>` (blockquote); rank numbers `1:`
-  not `1.` (list trigger steals the highlight); 3-space indent (4 = code
-  block). Arc: `?` -> `~` -> `✓`. Dream hygiene: nightly evidence-only
-  correction of resolved-but-unmarked marks; never flags idleness.
+- **Marks:** `!` must-not-lose · `?` unknown / unsettled / friction /
+  contested — settles only when a resolution is visible (a decision or
+  completion; then `✓`, then prunable) · `->` next action · `✓` done
+  (one-line resolution). No mark = neutral, the default. Optional word-tags
+  (`? contested: ...`). Shape rules: `->` not `>` (blockquote); rank numbers
+  `1:` not `1.` (list trigger steals the highlight); 3-space indent (4 =
+  code block). Arc: `?` -> `✓`. Dream hygiene: nightly evidence-only
+  correction of resolved-but-unmarked marks; a `?` never flips on silence.
+  Never flags idleness.
 
 ## Active threads
 - `threads/<name>.md` — what is live (one line each; completed drop off).
