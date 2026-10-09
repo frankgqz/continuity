@@ -67,7 +67,7 @@ The small rules matter more than they look, because markdown will betray you
 politely: a mark at line start works, a `>` becomes a blockquote, a `*` becomes
 a bullet, a `1.` mid-line becomes a list and steals your syntax highlighting,
 and a four-space indent becomes a code block. Marks live at the start of
-sub-points (after indentation), rank numbers use `1:`, indents stay at three
+sub-points (hanging at column 1, text at column 4, wraps at column 4), rank numbers use `1:`, indents stay at three
 spaces. A mark that needs a legend is too clever — these four can't be
 confused for anything else.
 
