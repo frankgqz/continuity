@@ -26,8 +26,8 @@
   completion; then `✓`, then prunable) · `->` next action · `✓` done
   (one-line resolution). No mark = neutral, the default. Optional word-tags
   (`? contested: ...`). Shape rules: `->` not `>` (blockquote); rank numbers
-  `1:` not `1.` (list trigger steals the highlight); 3-space indent (4 =
-  code block). Arc: `?` -> `✓`. Dream hygiene: nightly evidence-only
+  `1:` not `1.` (list trigger steals the highlight); 3-space indent —
+  wrapped continuation lines too, never 6 (4 = code block). Arc: `?` -> `✓`. Dream hygiene: nightly evidence-only
   correction of resolved-but-unmarked marks; a `?` never flips on silence.
   Never flags idleness.
 
