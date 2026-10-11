@@ -1,8 +1,8 @@
 # examples/household — continuity for a family
 
 The per-person edition: hot stores stay MEMORY.md + USER.md (bound names),
-but the user-cold tier splits by PERSON — mum.md, dad.md, family.md (shared)
-— and channel identity routes filing (mum's chat -> mum.md). One thread.md
+but the user-cold tier splits by PERSON — jenny.md, james.md, family.md (shared)
+— and channel identity routes filing (jenny's chat -> jenny.md). One thread.md
 instead of a threads/ folder; no notation ceremony. The dream prompt here
 sinks demotions to the person's file.
 

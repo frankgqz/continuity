@@ -1,6 +1,6 @@
 # thread.md — shared work file
 
-Open items, follow-ups, and things promised ("call the plumber", "mum's
+Open items, follow-ups, and things promised ("call the plumber", "jenny's
 appointment Thursday"), small household projects. Dated entries below.
 
 Marking (agent-facing): `!` must-not-lose · `?` open · `->` next action ·

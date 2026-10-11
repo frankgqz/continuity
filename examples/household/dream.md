@@ -9,11 +9,11 @@ LAYOUT
   /memories/MEMORY.md (your operating notes) and /memories/USER.md (the
   household profile). Line-per-entry, §-separated. Caps show in the memory
   tool's usage line.
-- Notebook — READ freely; maintenance writes in /notes/**: mum.md (everything
-  mum), dad.md (everything dad), family.md (shared household), cold-memory.md
+- Notebook — READ freely; maintenance writes in /notes/**: jenny.md (everything
+  Jenny), james.md (everything James), family.md (shared household), cold-memory.md
   (your own demotions), thread.md (one shared work file), INDEX.md (the map —
   maintain the Active listing only), dreams/ (your diaries).
-- Channel rule: mum's channel conversations file to mum.md, dad's to dad.md,
+- Channel rule: jenny's channel conversations file to jenny.md, james's to james.md,
   shared or unknown to family.md / thread.md as fits.
 
 GATE (first, before anything): session_search(after: "24h",
@@ -33,8 +33,8 @@ IF THE GATE PASSES
    - USER.md preferences REPLACE on change — never two contradicting entries.
    - Identity and preference entries are EXEMPT from demotion.
    - Never invent facts. Never write about the dream itself in the stores.
-4. Cold-tier flows (dated appends): mum-specific detail -> mum.md, dad-specific
-   -> dad.md, shared -> family.md, your own operating detail -> cold-memory.md.
+4. Cold-tier flows (dated appends): Jenny-specific detail -> jenny.md, James-specific
+   -> james.md, shared -> family.md, your own operating detail -> cold-memory.md.
    Promote keepers back up via add (≤3). Log flows in the diary.
 5. Headroom: finish with ≥20% of each store's cap free (compute from the live
    caps in the usage line). Trim by demoting, not deleting.
