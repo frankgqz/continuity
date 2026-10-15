@@ -70,6 +70,13 @@ IF THE GATE PASSES
 5. JANITOR PASS (light): retire COMPLETED items from INDEX's active listing
    into their threads/ file (park the detail first), prune aged thread
    entries. Never touch INDEX's map half; never create threads.
+   MARK HYGIENE: entries carry marks (per the threads spec). When evidence
+   shows an open question or next action has resolved (a pick was made, the
+   work landed), rewrite the mark as done with a one-line resolution. A
+   question flips only when a resolution is VISIBLE — never on silence.
+   Wrongly-done marks only (accuracy, not nagging): idle marks may sit
+   forever — never flag idleness. Never resolve a mark without evidence in
+   transcripts, notes, or git.
 6. Write a dated diary in memory/dreams/YYYY-MM-DD.md: 3-6 short lines — what
    you reviewed, what you changed, what you left alone.
 7. Your final response is the report: a brief diff (added / merged / removed),
