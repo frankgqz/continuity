@@ -67,6 +67,12 @@ Kit ships fixed names (procedures reference concrete paths).
 6. `essay.md` — "how to give your agent tiers, dreams, and a map" — the
    narrative. SECOND to the kit: the failure mode is shipping an essay when
    the world needs artifacts.
+7. `templates/skill-anatomy.md` — the skills home (the HOW + scars): where
+   procedures, pitfalls, and taste rules live once they outgrow threads/.
+   Portable via the agentskills.io standard (folder + SKILL.md +
+   description-as-trigger). Carries the mature anatomy (lookup-moment rooms),
+   the gap test, and the de-dupe rule. Skills are the long-term memory of the
+   WORK; threads are the memory of the STATE.
 
 ## Design decisions (lead's calls — veto freely)
 1. Kit-first, essay-second (see failure mode above).
