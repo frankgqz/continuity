@@ -15,6 +15,7 @@ any agent with one writable folder. No plugin, no service, no account.
 templates/   the seven skeletons (hot, cold, deep, map, threads, AGENTS.md)
 prompts/     dream.md (nightly consolidation) · nap.md (on-demand compression)
 adapters/    manual-ritual.md (the primary path) · hermes.md (reference host)
+examples/    household/ — the per-person edition (james.md, jenny.md, family.md)
 BOM.md       the design record: scope, host requirements, decisions
 ```
 
